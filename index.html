@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dishant Vaidya - AI/ML Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo" aria-label="Dishant Vaidya — home">
+      <span class="logo-text">Portfolio</span>
+      <svg class="logo-badge" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="19" fill="var(--navy)" stroke="var(--powder)" stroke-width="1.2"></circle>
+        <line x1="13" y1="24" x2="20" y2="14" stroke="var(--powder)" stroke-width="1" stroke-opacity="0.55"></line>
+        <line x1="27" y1="24" x2="20" y2="14" stroke="var(--powder)" stroke-width="1" stroke-opacity="0.55"></line>
+        <line x1="13" y1="24" x2="27" y2="24" stroke="var(--powder)" stroke-width="1" stroke-opacity="0.55"></line>
+        <circle class="logo-spark" cx="20" cy="14" r="2.6" fill="var(--spark)"></circle>
+        <circle cx="13" cy="24" r="2.2" fill="var(--powder)"></circle>
+        <circle cx="27" cy="24" r="2.2" fill="var(--powder)"></circle>
+      </svg>
+      <span class="logo-text">Website</span>
+    </a>
+    <nav class="main-nav">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="wrap hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow">India · Open to remote &amp; on-site roles</p>
+      <h1>Dishant Vaidya</h1>
+      <p class="hero-role">AI/ML Engineer &#8209; GenAI &amp; AgenticAI Systems <span class="divider">.</span> Data Analyst &amp; Scientist</p>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <svg viewBox="0 0 440 440" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="globeGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="rgb(198,210,230)" stop-opacity="0.45"></stop>
+            <stop offset="55%" stop-color="rgb(140,170,220)" stop-opacity="0.16"></stop>
+            <stop offset="100%" stop-color="rgb(140,170,220)" stop-opacity="0"></stop>
+          </radialGradient>
+          <filter id="nodeGlow" x="-80%" y="-80%" width="260%" height="260%">
+            <feGaussianBlur stdDeviation="3.2" result="blur"></feGaussianBlur>
+            <feMerge>
+              <feMergeNode in="blur"></feMergeNode>
+              <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+          </filter>
+        </defs>
+
+        <!-- ambient glow -->
+        <circle class="globe-glow" cx="220" cy="220" r="215" fill="url(#globeGlow)"></circle>
+
+        <!-- static globe boundary -->
+        <circle class="globe-edge" cx="220" cy="220" r="168"></circle>
+
+        <!-- wireframe meridians, slowly rotating -->
+        <g class="orbit-wrap">
+          <ellipse class="globe-line" cx="220" cy="220" rx="62" ry="168"></ellipse>
+          <ellipse class="globe-line" cx="220" cy="220" rx="62" ry="168" transform="rotate(30 220 220)"></ellipse>
+          <ellipse class="globe-line" cx="220" cy="220" rx="62" ry="168" transform="rotate(60 220 220)"></ellipse>
+          <ellipse class="globe-line" cx="220" cy="220" rx="62" ry="168" transform="rotate(90 220 220)"></ellipse>
+          <ellipse class="globe-line" cx="220" cy="220" rx="62" ry="168" transform="rotate(120 220 220)"></ellipse>
+          <ellipse class="globe-line" cx="220" cy="220" rx="62" ry="168" transform="rotate(150 220 220)"></ellipse>
+        </g>
+
+        <!-- latitude bands -->
+        <g class="orbit-wrap orbit-wrap--rev">
+          <ellipse class="globe-line globe-line--soft" cx="220" cy="150" rx="120" ry="26"></ellipse>
+          <ellipse class="globe-line globe-line--soft" cx="220" cy="220" rx="168" ry="40"></ellipse>
+          <ellipse class="globe-line globe-line--soft" cx="220" cy="290" rx="120" ry="26"></ellipse>
+        </g>
+
+        <!-- neuron connections -->
+        <g class="n-lines" filter="url(#nodeGlow)">
+          <line class="n-line" x1="220" y1="55" x2="300" y2="85" style="animation-delay:0s"></line>
+          <line class="n-line" x1="220" y1="55" x2="145" y2="85" style="animation-delay:.3s"></line>
+          <line class="n-line" x1="300" y1="85" x2="220" y2="135" style="animation-delay:.6s"></line>
+          <line class="n-line" x1="145" y1="85" x2="220" y2="135" style="animation-delay:.1s"></line>
+          <line class="n-line" x1="220" y1="135" x2="270" y2="190" style="animation-delay:.4s"></line>
+          <line class="n-line" x1="220" y1="135" x2="170" y2="190" style="animation-delay:.7s"></line>
+          <line class="n-line" x1="270" y1="190" x2="330" y2="240" style="animation-delay:.2s"></line>
+          <line class="n-line" x1="170" y1="190" x2="115" y2="240" style="animation-delay:.5s"></line>
+          <line class="n-line" x1="270" y1="190" x2="220" y2="250" style="animation-delay:.15s"></line>
+          <line class="n-line" x1="170" y1="190" x2="220" y2="250" style="animation-delay:.45s"></line>
+          <line class="n-line" x1="330" y1="240" x2="280" y2="310" style="animation-delay:.35s"></line>
+          <line class="n-line" x1="115" y1="240" x2="165" y2="310" style="animation-delay:.65s"></line>
+          <line class="n-line" x1="220" y1="250" x2="220" y2="360" style="animation-delay:.25s"></line>
+          <line class="n-line" x1="280" y1="310" x2="220" y2="360" style="animation-delay:.55s"></line>
+          <line class="n-line" x1="165" y1="310" x2="220" y2="360" style="animation-delay:.85s"></line>
+          <line class="n-line" x1="355" y1="150" x2="330" y2="240" style="animation-delay:.1s"></line>
+          <line class="n-line" x1="90" y1="150" x2="115" y2="240" style="animation-delay:.4s"></line>
+        </g>
+
+        <!-- neuron nodes -->
+        <g class="n-nodes" filter="url(#nodeGlow)">
+          <circle class="n-node" cx="220" cy="55" r="6" style="animation-delay:0s"></circle>
+          <circle class="n-node" cx="300" cy="85" r="5" style="animation-delay:.3s"></circle>
+          <circle class="n-node" cx="145" cy="85" r="5" style="animation-delay:.6s"></circle>
+          <circle class="n-node n-node--spark" cx="355" cy="150" r="7" style="animation-delay:.1s"></circle>
+          <circle class="n-node" cx="90" cy="150" r="6" style="animation-delay:.4s"></circle>
+          <circle class="n-node n-node--spark" cx="220" cy="135" r="9" style="animation-delay:.2s"></circle>
+          <circle class="n-node n-node--spark" cx="270" cy="190" r="10" style="animation-delay:.5s"></circle>
+          <circle class="n-node" cx="170" cy="190" r="7" style="animation-delay:.8s"></circle>
+          <circle class="n-node" cx="330" cy="240" r="6" style="animation-delay:.35s"></circle>
+          <circle class="n-node" cx="115" cy="240" r="5" style="animation-delay:.65s"></circle>
+          <circle class="n-node n-node--spark" cx="220" cy="250" r="8" style="animation-delay:.15s"></circle>
+          <circle class="n-node" cx="280" cy="310" r="5" style="animation-delay:.45s"></circle>
+          <circle class="n-node" cx="165" cy="310" r="5" style="animation-delay:.75s"></circle>
+          <circle class="n-node" cx="220" cy="360" r="6" style="animation-delay:.25s"></circle>
+          <circle class="n-node n-node--dim" cx="350" cy="290" r="4" style="animation-delay:.55s"></circle>
+          <circle class="n-node n-node--dim" cx="95" cy="290" r="4" style="animation-delay:.85s"></circle>
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Signature element: the shape of the work, as a level-map style path spanning data science through agentic AI -->
+  <div class="pipeline" aria-hidden="true">
+    <div class="pipeline-map">
+      <svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <filter id="mapGlow" x="-60%" y="-60%" width="220%" height="220%">
+            <feGaussianBlur stdDeviation="2.4" result="blur"></feGaussianBlur>
+            <feMerge>
+              <feMergeNode in="blur"></feMergeNode>
+              <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+          </filter>
+        </defs>
+
+        <!-- winding route -->
+        <path id="mapRoute" class="map-route"
+          d="M150,130 Q300,95 450,130 Q600,165 750,130 Q900,95 1050,130
+             Q1160,280 1050,430 Q900,465 750,430 Q600,395 450,430 Q300,465 150,430
+             Q40,580 150,730 Q300,765 450,730 Q600,695 750,730 Q900,765 1050,730"></path>
+
+        <!-- traveling spark along the route -->
+        <circle class="map-spark" r="7" filter="url(#mapGlow)">
+          <animateMotion dur="13s" repeatCount="indefinite" rotate="auto">
+            <mpath href="#mapRoute"></mpath>
+          </animateMotion>
+        </circle>
+
+        <!-- stage 1 -->
+        <g class="map-node">
+          <circle class="map-node-circle" cx="150" cy="130" r="38"></circle>
+          <text class="map-node-num" x="150" y="139">1</text>
+          <text class="map-label" x="150" y="204">Data Collection</text>
+        </g>
+        <!-- stage 2 -->
+        <g class="map-node">
+          <circle class="map-node-circle" cx="450" cy="130" r="38"></circle>
+          <text class="map-node-num" x="450" y="139">2</text>
+          <text class="map-label" x="450" y="204">Data Cleaning &amp; EDA</text>
+        </g>
+        <!-- stage 3 -->
+        <g class="map-node">
+          <circle class="map-node-circle" cx="750" cy="130" r="38"></circle>
+          <text class="map-node-num" x="750" y="139">3</text>
+          <text class="map-label" x="750" y="204">Feature Engineering</text>
+        </g>
+        <!-- stage 4 -->
+        <g class="map-node">
+          <circle class="map-node-circle" cx="1050" cy="130" r="38"></circle>
+          <text class="map-node-num" x="1050" y="139">4</text>
+          <text class="map-label" x="1050" y="204">Model / CV Training</text>
+        </g>
+        <!-- stage 5 -->
+        <g class="map-node">
+          <circle class="map-node-circle" cx="1050" cy="430" r="38"></circle>
+          <text class="map-node-num" x="1050" y="439">5</text>
+          <text class="map-label" x="1050" y="504">Model Evaluation</text>
+        </g>
+        <!-- stage 6 (GenAI cluster begins) -->
+        <g class="map-node">
+          <circle class="map-node-circle map-node-circle--spark" cx="750" cy="430" r="38"></circle>
+          <text class="map-node-num map-node-num--spark" x="750" y="439">6</text>
+          <text class="map-label" x="750" y="504">Embeddings &amp; Vector DB</text>
+        </g>
+        <!-- stage 7 -->
+        <g class="map-node">
+          <circle class="map-node-circle map-node-circle--spark" cx="450" cy="430" r="38"></circle>
+          <text class="map-node-num map-node-num--spark" x="450" y="439">7</text>
+          <text class="map-label" x="450" y="504">RAG Pipeline</text>
+        </g>
+        <!-- stage 8 -->
+        <g class="map-node">
+          <circle class="map-node-circle map-node-circle--spark" cx="150" cy="430" r="38"></circle>
+          <text class="map-node-num map-node-num--spark" x="150" y="439">8</text>
+          <text class="map-label" x="150" y="504">Prompt Engineering</text>
+        </g>
+        <!-- stage 9 -->
+        <g class="map-node">
+          <circle class="map-node-circle map-node-circle--spark" cx="150" cy="730" r="38"></circle>
+          <text class="map-node-num map-node-num--spark" x="150" y="739">9</text>
+          <text class="map-label" x="150" y="804">Agentic Orchestration</text>
+        </g>
+        <!-- stage 10 -->
+        <g class="map-node">
+          <circle class="map-node-circle" cx="450" cy="730" r="38"></circle>
+          <text class="map-node-num" x="450" y="739">10</text>
+          <text class="map-label" x="450" y="804">Secure API</text>
+        </g>
+        <!-- stage 11 -->
+        <g class="map-node">
+          <circle class="map-node-circle" cx="750" cy="730" r="38"></circle>
+          <text class="map-node-num" x="750" y="739">11</text>
+          <text class="map-label" x="750" y="804">Deployment</text>
+        </g>
+        <!-- stage 12 (final) -->
+        <g class="map-node">
+          <circle class="map-node-circle map-node-circle--final" cx="1050" cy="730" r="42"></circle>
+          <text class="map-node-num map-node-num--final" x="1050" y="740">12</text>
+          <text class="map-label" x="1050" y="808">Monitoring &amp; Iteration</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="wrap about-grid">
+    <div class="section-heading">
+      <h2 class="eyebrow-dark">About</h2>
+    </div>
+    <p class="about-copy">
+      I build reliable AI systems end to end — curating datasets, training models, wiring
+      retrieval and reasoning pipelines, and shipping them behind secure APIs for finance,
+      government and cybersecurity workloads. From a YOLO detector running at 98% real-world
+      accuracy to an agentic RAG pipeline serving hallucination-free legal document retrieval,
+      my focus stays the same: take AI from a notebook experiment to something that holds up
+      in production. I'm quick to learn, adaptable, and hold data confidentiality as a first
+      principle — not an afterthought — on every system I touch.
+    </p>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="section section-tinted" id="experience">
+  <div class="wrap">
+    <div class="section-heading">
+      <h2 class="eyebrow-dark">Work Experience</h2>
+    </div>
+
+    <div class="timeline">
+
+      <article class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-top">
+            <h3>AI/ML Developer</h3>
+            <span class="timeline-date">Nov 2025 – Apr 2026</span>
+          </div>
+          <p class="timeline-org">Betasys AI Private Limited · Nagpur, India</p>
+          <ul>
+            <li>Developed a YOLO-based object detection system for Indian vehicle number plates by curating and annotating custom datasets, achieving <strong>98% real-world detection accuracy</strong>.</li>
+            <li>Built an intelligent chatbot for a government "Udyog Mitra" platform, automating query handling and reducing response turnaround from hours to seconds.</li>
+            <li>Architected an automated document processing system for the "Accountant General" office using AWS Textract, cutting billing-docket processing from 4 months to 1 day.</li>
+            <li>Designed and deployed scalable AI inference APIs using FastAPI.</li>
+            <li>Built a multi-tier agentic RAG pipeline for "advocategpt.ai" using LangChain, MCP, and AWS Nova Pro — optimizing MongoDB summary routing and S3 PDF extraction for low-latency, hallucination-free retrieval.</li>
+            <li>Engineered prompt pipelines for generative image systems (AWS Nova Canvas), improving output consistency for client-facing applications.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-top">
+            <h3>Data Analyst</h3>
+            <span class="timeline-date">Aug 2021 – Jan 2023</span>
+          </div>
+          <p class="timeline-org">Shri Chakradhar Investment &amp; Insurance · Amravati, India</p>
+          <ul>
+            <li>Collected and processed historical NSE market data for Nifty 50 companies using yfinance and pandas, building an automated technical-analysis pipeline.</li>
+            <li>Developed technical analysis strategies with pandas_ta (RSI, MACD, EMA, SMA, Bollinger Bands) to generate high-confidence trend and momentum signals across sectors.</li>
+            <li>Built matplotlib visualization workflows to analyze volatility and price action, reducing manual analysis time by 70%.</li>
+            <li>Automated indicator computation and comparative stock analysis, improving analysis efficiency 5x over manual spreadsheet workflows.</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<!--
+  PROJECT TEMPLATE — how to add a new project:
+  1. Duplicate one <article class="project-card"> ... </article> block below.
+  2. Replace the title, tag list, description, bullet points and links.
+  3. Keep the two buttons (Code / Demo). If one doesn't apply yet, swap its
+     <a> for a <span class="project-btn ... project-btn--disabled"> as shown
+     in the cards below, rather than deleting it.
+  4. The grid (.projects-grid) auto-wraps, so any number of cards ≥ 2 will lay
+     out responsively — no extra markup needed beyond adding more cards.
+-->
+<section class="section" id="projects">
+  <div class="wrap">
+    <div class="section-heading">
+      <h2 class="eyebrow-dark">Projects</h2>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- PROJECT 1 : real project from CV -->
+      <article class="project-card">
+        <div class="project-tags">
+          <span class="tag">LangGraph</span>
+          <span class="tag">RAG</span>
+          <span class="tag">Security</span>
+        </div>
+        <h3>Autonomous PenTest Agent</h3>
+        <p class="project-problem">
+          Security teams lack tools that explain their reasoning during penetration
+          testing, making automated findings hard to audit, learn from, or reproduce.
+        </p>
+        <ul class="project-points">
+          <li>LangGraph-based multi-phase agentic pipeline using Groq (Llama-3 70B) as the reasoning core.</li>
+          <li>Integrates nmap for recon, Nuclei for vulnerability detection, and a ChromaDB RAG layer seeded from the NVD CVE feed for exploit matching.</li>
+          <li>Every tool call is followed by a logged reasoning step, surfaced in a Streamlit UI with phase tracking and a downloadable markdown report.</li>
+        </ul>
+        <div class="project-links">
+          <a class="project-btn project-btn--code" href="https://github.com/dishant-vaidya" target="_blank" rel="noopener">Code</a>
+          <a class="project-btn project-btn--demo" href="https://github.com/dishant-vaidya" target="_blank" rel="noopener">Demo</a>
+        </div>
+      </article>
+
+      <!-- PROJECT 2 : template placeholder — replace with your next project -->
+      <article class="project-card project-card--template">
+        <div class="project-tags">
+          <span class="tag tag--placeholder">Tech tag</span>
+          <span class="tag tag--placeholder">Tech tag</span>
+        </div>
+        <h3>Your next project title</h3>
+        <p class="project-problem">
+          One or two sentences on the problem this project solves, written the same
+          way as the card above.
+        </p>
+        <ul class="project-points">
+          <li>What you built and the core architecture or approach.</li>
+          <li>Key technical decision or integration worth calling out.</li>
+          <li>The measurable outcome or result, if you have one.</li>
+        </ul>
+        <div class="project-links">
+          <a class="project-btn project-btn--code" href="#">Code</a>
+          <a class="project-btn project-btn--demo" href="#">Demo</a>
+        </div>
+      </article>
+
+      <!-- Add-project affordance: duplicate a project-card above, remove this block if not needed -->
+      <a class="project-card project-card--add" href="#projects">
+        <span class="add-icon">+</span>
+        <span>Add another project</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section section-tinted" id="skills">
+  <div class="wrap">
+    <div class="section-heading">
+      <h2 class="eyebrow-dark">Skills</h2>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Programming</h3>
+        <div class="chip-row">
+          <span class="chip">Python</span><span class="chip">NumPy</span><span class="chip">Pandas</span>
+          <span class="chip">Matplotlib</span><span class="chip">Seaborn</span><span class="chip">Scikit-learn</span>
+          <span class="chip">PyTorch</span><span class="chip">FastAPI</span><span class="chip">OpenCV</span><span class="chip">SQL</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Cloud</h3>
+        <div class="chip-row">
+          <span class="chip">AWS Bedrock</span><span class="chip">Lambda</span><span class="chip">S3</span>
+          <span class="chip">EC2</span><span class="chip">SageMaker</span><span class="chip">Textract</span><span class="chip">Rekognition</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Machine Learning</h3>
+        <div class="chip-row">
+          <span class="chip">Data Cleaning &amp; Preprocessing</span><span class="chip">EDA</span>
+          <span class="chip">Predictive Modeling</span><span class="chip">Statistical Analysis</span>
+          <span class="chip">Data Visualization</span><span class="chip">API Handling</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Gen-AI</h3>
+        <div class="chip-row">
+          <span class="chip">NLP / LLM</span><span class="chip">RAG</span><span class="chip">MCP</span>
+          <span class="chip">LangChain</span><span class="chip">Stable Diffusion</span>
+          <span class="chip">Prompt Engineering</span><span class="chip">Computer Vision</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>CI/CD</h3>
+        <div class="chip-row">
+          <span class="chip">Docker</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Soft Skills</h3>
+        <div class="chip-row">
+          <span class="chip">Fast Learning</span><span class="chip">Adaptability</span>
+          <span class="chip">Task Prioritization</span><span class="chip">Professional Ethics</span><span class="chip">Data Confidentiality</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATIONS + EDUCATION ============ -->
+<section class="section" id="education">
+  <div class="wrap two-col">
+    <div>
+      <div class="section-heading">
+        <h2 class="eyebrow-dark">Courses / Certifications</h2>
+        
+      </div>
+      <ul class="cred-list">
+        <li>
+          <span class="cred-title">Fundamentals of Deep Learning</span>
+          <span class="cred-org">NVIDIA DLI</span>
+        </li>
+        <li>
+          <span class="cred-title">Machine Learning for Cyber Security</span>
+          <span class="cred-org">C-DAC</span>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <div class="section-heading">
+        <h2 class="eyebrow-dark">Education / Academics</h2>
+      </div>
+      <ul class="cred-list">
+        <li>
+          <span class="cred-title">M.Tech, Applied Data Science &amp; Artificial Intelligence</span>
+          <span class="cred-org">National Forensic Sciences University, Gandhinagar · 2025 · PPI 7.86</span>
+        </li>
+        <li>
+          <span class="cred-title">B.E., Computer Science &amp; Engineering</span>
+          <span class="cred-org">Sant Gadge Baba Amravati University · 2021 · CGPA 8.34</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT / FOOTER ============ -->
+<footer class="site-footer" id="contact">
+  <div class="wrap footer-inner">
+    <div>
+      <h2>Reliability is my standard. Security is my default.</h2>
+      <p>Open to AI/ML, Gen-AI, Agentic-AI and Data roles in finance, cybersecurity and SaaS domains.</p>
+    </div>
+    <div class="footer-links">
+      <a class="footer-link-item" href="mailto:vaidya.dishant@gmail.com">
+        <span class="footer-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg>
+        </span>
+        <span>vaidya.dishant@gmail.com</span>
+      </a>
+      <a class="footer-link-item" href="tel:+917507790128">
+        <span class="footer-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        </span>
+        <span>+91-7507790128</span>
+      </a>
+      <a class="footer-link-item" href="https://linkedin.com/in/vaidyadishant" target="_blank" rel="noopener">
+        <span class="footer-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"></rect><text x="12" y="16.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="currentColor">in</text></svg>
+        </span>
+        <span>LinkedIn</span>
+      </a>
+      <a class="footer-link-item" href="https://github.com/dishant-vaidya" target="_blank" rel="noopener">
+        <span class="footer-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1-.02-1.96-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.75 2.7 1.25 3.36.96.1-.74.4-1.25.72-1.54-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.58.23 2.75.11 3.04.74.8 1.18 1.83 1.18 3.09 0 4.43-2.71 5.4-5.29 5.69.42.36.78 1.08.78 2.18 0 1.58-.01 2.85-.01 3.24 0 .3.2.66.79.55A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"></path></svg>
+        </span>
+        <span>GitHub</span>
+      </a>
+      <a class="footer-link-item" href="https://www.kaggle.com/dishantvaidya" target="_blank" rel="noopener">
+        <span class="footer-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.8"></circle><text x="12" y="16" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="currentColor">k</text></svg>
+        </span>
+        <span>Kaggle</span>
+      </a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+  <span>&copy; 2026 Dishant Vaidya.</span>
+  </div>
+</footer>
+
+</body>
+</html>
